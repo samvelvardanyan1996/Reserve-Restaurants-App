@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff"
+    },
+    "name": "Autohelp",
+    "slug": "Autohelp",
+    "version": "1.3.7",
+    "orientation": "portrait",
+    "icon": "./src/image/preloader.jpg",
+    "splash": {
+      "image": "./src/image/preloader.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#FBD100"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ArtakArakelyan.Autohelp",
+      "buildNumber": "1.3.7",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDltnopHVv_qRBfFMuNsA4d2CysR6ZdYl0"
+      },
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "For displaying car service points around your location please turn on location services.",
+        "NSLocationUsageDescription": "For displaying car service points around your location please turn on location services.",
+        "NSLocationWhenInUseUsageDescription": "For displaying car service points around your location please turn on location services.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "For displaying car service points around your location please turn on location services."
+      }
+    },
+    "android": {
+      "package": "com.Webex.CarService",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "versionCode": 22,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCj6Ms_kEohqaSkBl7q7suoTjZ2r_oJUXk"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
